@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://github.com/Wigger-H"
   s.license               = { :type => 'Copyright', :text => "Wigger-INC copyright" }
   s.author                = { "huangwei" => "huangwei@163.com" }
-  s.source                = { :http => "https://github.com/Wigger-H/XSIOTSDK.git" }
+  s.source                = { :http => "https://github.com/Wigger-H/XSIOTSDK.git", :tag => "#{s.version}" }
   s.platform     		  = :ios, '10.0'
   s.vendored_frameworks = 'XSIOTSDK/XSIOTSDK.framework'
   s.requires_arc = true
