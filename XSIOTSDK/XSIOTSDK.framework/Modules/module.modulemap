@@ -1,0 +1,6 @@
+framework module XSIOTSDK {
+  umbrella header "XSIOTSDK.h"
+
+  export *
+  module * { export * }
+}
